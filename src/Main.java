@@ -6,16 +6,16 @@ public class Main {
 
         int[] arr = generateRandomArray();
 
-        //Çàäàíèå 1
+        //Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 1
 
         int monthTotal = 0;
         for (int element : arr) {
             monthTotal += element;
         }
-        System.out.println("Ñóììà òðàò çà ìåñÿö ñîñòàâèëà " + monthTotal + " ðóáëåé");
+        System.out.println("Ð¡ÑƒÐ¼Ð¼Ð° Ñ‚Ñ€Ð°Ñ‚ Ð·Ð° Ð¼ÐµÑÑÑ† ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ð»Ð° " + monthTotal + " Ñ€ÑƒÐ±Ð»ÐµÐ¹");
 
 
-        //Çàäàíèå 2
+        //Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 2
 
         int minSpending = 200000;
         int maxSpending = 100000;
@@ -28,16 +28,16 @@ public class Main {
                 maxSpending = element;
             }
         }
-        System.out.println("Ìèíèìàëüíàÿ ñóììà òðàò çà äåíü ñîñòàâèëà " + minSpending + " ðóáëåé. Ìàêñèìàëüíàÿ ñóììà òðàò çà äåíü ñîñòàâèëà " + maxSpending + " ðóáëåé");
+        System.out.println("ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ ÑÑƒÐ¼Ð¼Ð° Ñ‚Ñ€Ð°Ñ‚ Ð·Ð° Ð´ÐµÐ½ÑŒ ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ð»Ð° " + minSpending + " Ñ€ÑƒÐ±Ð»ÐµÐ¹. ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ ÑÑƒÐ¼Ð¼Ð° Ñ‚Ñ€Ð°Ñ‚ Ð·Ð° Ð´ÐµÐ½ÑŒ ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ð»Ð° " + maxSpending + " Ñ€ÑƒÐ±Ð»ÐµÐ¹");
 
 
-        //Çàäàíèå 3
+        //Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 3
 
         double monthAverage = monthTotal / 30.0;
-        System.out.println("Ñðåäíÿÿ ñóììà òðàò çà ìåñÿö ñîñòàâèëà " + monthAverage + " ðóáëåé");
+        System.out.println("Ð¡Ñ€ÐµÐ´Ð½ÑÑ ÑÑƒÐ¼Ð¼Ð° Ñ‚Ñ€Ð°Ñ‚ Ð·Ð° Ð¼ÐµÑÑÑ† ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ð»Ð° " + monthAverage + " Ñ€ÑƒÐ±Ð»ÐµÐ¹");
 
 
-        //Çàäàíèå 4
+        //Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ 4
 
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i > 0; i--) {
