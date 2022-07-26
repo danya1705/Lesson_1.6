@@ -17,8 +17,8 @@ public class Main {
 
         //Задание 2
 
-        int minSpending = 200000;
-        int maxSpending = 100000;
+        int minSpending = 2147483647;
+        int maxSpending = 0;
 
         for (int element : arr) {
             if (element < minSpending) {
@@ -33,7 +33,7 @@ public class Main {
 
         //Задание 3
 
-        double monthAverage = monthTotal / 30.0;
+        double monthAverage = monthTotal / (double) arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + monthAverage + " рублей");
 
 
